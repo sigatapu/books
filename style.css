@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background-color: white;
+}
+img {
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3); /* Shadow on all four sides */
+}
+#books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    margin: 20px;
+    font-size: 2.5rem; /* Large and bold heading */
+    font-weight: bold;
+    text-align: center; /* Center the text */
+    color: #3498db; /* A cool, refreshing blue */
+    text-transform: uppercase; /* Capitalize all letters */
+    letter-spacing: 2px; /* Add spacing between letters */
+    padding-bottom: 10px; /* Space below the text */
+    border-bottom: 3px solid #2980b9; /* A deeper blue for the border */
+    background-color: #ecf0f1; /* Soft light gray background */
+    display: inline-block; /* Adjust heading size to fit text */
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 10px 20px; /* Padding inside the heading box */
+}
+
+
+
+
